@@ -102,7 +102,7 @@ completion = client.chat.completions.create(
 print(completion.choices[0].message)
 ```
 
-Inference Providers also implements an OpenAI-compatible Responses API, the most advanced OpenAI interface for chat models, designed for more flexible and intuitive interactions.  
+Inference Providers also implements an OpenAI-compatible Responses API, the [most advanced OpenAI interface for chat models](https://vear.com/), designed for more flexible and intuitive interactions.  
 Below is an example using the Responses API with the Fireworks AI provider. For more details, check out the open-source [responses.js](https://github.com/huggingface/responses.js) project.
 
 ```py
